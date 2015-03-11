@@ -1,0 +1,121 @@
+
+.head {
+	margin:100px  auto;	
+	width: 220px; height: 100px;
+	border-color: #A4CA39;
+	color: #A4CA39;
+	background: #A4CA39;
+
+	border-radius: 100px 100px 0 0;
+}
+
+.head:hover {
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-ms-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.l_ant {
+	height: 50px; width: 0;
+	border-style: solid;
+	margin-left: 50px;
+	position: relative;
+	top: -40px;
+	transform : rotate(-30deg);
+	border-radius: 20px;
+}
+
+.r_ant {
+	height: 50px; width: 0;
+	border-style: solid;
+	position: relative;
+	top: -96px;
+	margin-left: 160px;
+	transform :rotate(30deg);
+	border-radius: 20px;
+}
+
+.l_eye {
+	height: 20px; width: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	position: relative;
+	top: -70px;
+	left: 50px;
+}
+
+.r_eye {
+	height: 20px; width: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	position: relative;
+	top: -90px;
+	left: 150px;
+}
+
+.body {
+	margin: auto;
+	height: 184px; width: 220px;
+	color: #A4CA39;
+	border-style: solid;
+	background: #A4CA39;
+	position: relative;
+	top: -90px;
+
+	border-radius: 0 0 25px 25px;
+}
+
+.l_arm {
+	position: relative;
+	right: 60px;
+	height: 150px; width: 40px;
+	border-style: solid;
+	background: #A4CA39;
+	color: #A4CA39;
+	border-radius: 25px;
+}
+
+.l_arm:hover {
+	-transform: rotate(15deg) translate(-14px, 0px);
+	-moz-transform: rotate(15deg) translate(-14px, 0px);
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-ms-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.r_arm {
+	position: relative;
+	left: 232px;
+	bottom: 156px;
+	height: 150px; width: 40px;
+	border-style: solid;
+	background: #A4CA39;
+	border-radius: 25px;
+}
+
+.r_arm:hover {
+	-transform: rotate(-15deg) translate(14px, 0px);
+	-moz-transform: rotate(-15deg) translate(14px, 0px);
+	-webkit-transform: rotate(-15deg) translate(14px, 0);
+	-ms-transform: rotate(-15deg) translate(14px, 0);
+}
+
+.l_leg {
+	position: relative;
+	bottom: 150px;
+	left: 40px;
+	height: 100px; width: 40px;
+	border-style: solid;
+	background-color: #A4CA39;
+	border-radius: 25px;
+}
+
+.r_leg {
+	position: relative;
+	bottom: 255px;
+	left: 130px;
+	height: 100px; width: 40px;
+	border-style: solid;
+	background-color: #A4CA39;
+	border-radius: 25px;
+}
